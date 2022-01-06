@@ -1,6 +1,5 @@
 import './App.css';
 import StartQuiz from './StartQuiz';
-import PracticeInput from './PracticeInput';
 
 function App() {
   return (
