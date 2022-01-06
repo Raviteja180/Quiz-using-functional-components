@@ -34,7 +34,7 @@ function Quiz(props) {
                     i === questions.length - 1 ?
                         <button
                             onClick={() => {
-                                tempAnswer == questions[i].answer ?
+                                tempAnswer === questions[i].answer ?
                                     props.resultFromChild(result + 1, true) : props.resultFromChild(result, true)
                             }
                             }
