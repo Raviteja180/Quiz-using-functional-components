@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Who is the Captain of Indian Cricket Team ?",
+        "options": [
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "KL Rahul",
+            "Shardul Takur"
+        ],
+        "answer": "Virat Kohli",
+        "id": 1
+    },
+    {
+        "question": "What is the capital city of India ?",
+        "options": [
+            "Bangalore",
+            "Delhi",
+            "Mumbai",
+            "Hyderabad"
+        ],
+        "answer": "Delhi",
+        "id": 2
+    },
+    {
+        "question": "Who is the hero of Pushpa movie ?",
+        "options": [
+            "Allu Arjun",
+            "Prabhas",
+            "NTR",
+            "Ramcharan"
+        ],
+        "answer": "Allu Arjun",
+        "id": 3
+    },
+    {
+        "question": "Mexico is in ______________",
+        "options": [
+            "South Africa",
+            "USA",
+            "China",
+            "Europe"
+        ],
+        "answer": "USA",
+        "id": 4
+    }
+]
