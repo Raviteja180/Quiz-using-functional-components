@@ -5,18 +5,10 @@ function Quiz(props) {
     const [i, setI] = useState(0)
     const [result, setAnswer] = useState(0)
     const [tempAnswer, setTempAnswer] = useState("")
-    const [submitClick, setSubmit] = useState(false)
     function nextQuestion() {
 
-        (tempAnswer == questions[i].answer) ? setAnswer(result + 1) : setAnswer(result)
+        (tempAnswer === questions[i].answer) ? setAnswer(result + 1) : setAnswer(result)
         setI(i + 1)
-    }
-    function prevQuestion() {
-        console.log(tempAnswer)
-        setI(i - 1)
-    }
-    function evaluate() {
-        setSubmit(true)
     }
     useEffect(() => { })
     return (
@@ -39,7 +31,7 @@ function Quiz(props) {
                 </div>
             </div>
                 {
-                    i == questions.length - 1 ?
+                    i === questions.length - 1 ?
                         <button
                             onClick={() => {
                                 tempAnswer == questions[i].answer ?
