@@ -2,9 +2,6 @@ import React from 'react'
 // import './buttons.css'
 
 function PracticeInput() {
-    function fun() {
-
-    }
     return (
         <div>
             
